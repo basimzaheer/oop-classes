@@ -174,18 +174,26 @@ public class Main {
 import java.util.Scanner;
 class Area{
     int length,width;
-    public int area(){
+    public int area() {
         return length * width;
+    }
 
     }
-    public class main {
+    public class Main{
 
 
         public static void main(String[] args) {
+            System.out.println("Enter the area");
             Area s1 = new Area();
-            s1.length = 4;
-            s1.width = 6;
+            Scanner s2 = new Scanner(System.in);
+            s1.length = s2.nextInt();
+            s1.width = s2.nextInt();
+            System.out.println("Length: "+ s1.length+"Width: "+s1.width);
+            System.out.println("Area: "+s1.area());
+
 
         }
-}
+
+    }
+
 
