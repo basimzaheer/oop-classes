@@ -134,8 +134,8 @@ public class Studentsbehaviour {
 
         Student s1 = new Student();
 
-        s1.name = "Ali";
-        s1.rollNumber = "FA25-BMD-001";
+        s1.name = "Basim";
+        s1.rollNumber = "FA25-BMD-033";
         s1.program = "Mathematics and Data Science";
         s1.semester = 3;
 
